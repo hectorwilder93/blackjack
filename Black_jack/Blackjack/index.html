@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de black jack</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+</head>
+<body> 
+    <h2>Crupier: <span id="crupier"></span></h2>
+        <div id="crupier-baraja">
+            <img id="cartaOculta" src="./imagenes/img-baraja/BACK.png">
+        </div>
+
+        <h2>Jugador 1: <span id="jugador1"></span></h2>
+        <div id="jugador1-baraja"></div>        
+        
+        <button id="hit">hit</button>
+        <button id="stay">stay</button>
+        <input id="btn-reiniciar" type="button" value="Reiniciar" onclick="location.reload()">
+        <p id="resultado"></p>    
+</body>
+</html>
